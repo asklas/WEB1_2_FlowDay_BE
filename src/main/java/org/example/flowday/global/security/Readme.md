@@ -32,8 +32,8 @@
 
 - [oauth2](https://github.com/prgrms-web-devcourse-final-project/WEB1_2_FlowDay_BE/tree/develop/src/main/java/org/example/flowday/global/security/util/oauth2)
     - dto
-        - OAuth2 Recourse Server 간의 Response 구조 차이에 따른 OAuth2Response 인터페이스와 구현
-        - Oauth2 인증에 사용되는 OAuth2User 인터페이스 구현
+        - OAuth2 Recourse Server 간의 Response 구조 차이에 따른 OAuth2Response 인터페이스와 구현체
+        - Oauth2 인증에 사용되는 OAuth2User 인터페이스 구현체
     - repository
         - 배포시 게이트웨이 및 블루그린 배포를 위한 다중 서버 환경에서의 세션 불일치로 발생하는 OAuth2 인증 실패 현상을 해결하기 위한 커스텀 AuthorizationRequestRepository 구현체
     - service
